@@ -20,6 +20,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.carousel {
-
+.title{
+    display: flex 1;
+    padding: 200px;
+    font-size: 11.11em; 
+    text-align: center; 
+    font-family: 'Mogra', cursive;
+    color: white;
+    position: relative;
 }
