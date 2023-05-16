@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+* {
+    margin: 0px;
+}
+
 /* navbar style */
 #logo {
     width: 50px;
@@ -80,7 +84,24 @@
 
 /* footer */
 #footer {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.icons img {
+    width: 6vw;
+    font-size: 10vw;
+    font-family: 'Mogra', cursive;
+    color: rgb(0, 0, 0);
+    filter: invert(1);
+}
+
+.footer-copyright {
+    font-size: 1.7vw;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
 }
 
 /* member page */
