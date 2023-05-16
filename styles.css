@@ -24,6 +24,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+.dropdown-menu .dropdown-submenu-left {
+        right: 100%;
+        left: auto;
+        }
+
+.dropdown-menu li {
+        position: relative;
+        }
+.dropdown-menu .dropdown-submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+        }
 /* home page */
 #column {
     padding-top: 60px;
