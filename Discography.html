@@ -9,60 +9,79 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">NewJeans</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Members
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="members/minji.html">Minji</a></li>
-                  <li><a class="dropdown-item" href="members/hanni.html">Hanni</a></li>
-                  <li><a class="dropdown-item" href="members/dani.html">Danielle</a></li>
-                  <li><a class="dropdown-item" href="members/haerin.html">Haerin</a></li>
-                  <li><a class="dropdown-item" href="members/hyein.html">Hyein</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Discography
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">New Jeans</a></li>
-                  <li><a class="dropdown-item" href="#">Ditto</a></li>
-                  <li><a class="dropdown-item" href="#">OMG</a></li>
-                  <li><a class="dropdown-item" href="#">Zero</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blog Posts
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Clairese's Blogs</a></li>
-                  <li><a class="dropdown-item" href="dianneblog.html">Dianne's Blog</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active">Shop</a>
-              </li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <!-- home -->
+      <a class="navbar-brand" href="index.html">
+        <img src="pictures/logo.png" id="logo" alt="">
+        NewJeans
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <!-- members -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Members
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="members/minji.html">Minji</a></li>
+              <li><a class="dropdown-item" href="members/hanni.html">Hanni</a></li>
+              <li><a class="dropdown-item" href="members/dani.html">Danielle</a></li>
+              <li><a class="dropdown-item" href="members/haerin.html">Haerin</a></li>
+              <li><a class="dropdown-item" href="members/hyein.html">Hyein</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <!-- discography -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Discography
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="preview.html">Preview</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="newjeans.html">New Jeans</a></li>
+              <li><a class="dropdown-item" href="ditto.html">Ditto</a></li>
+              <li><a class="dropdown-item" href="omg.html">OMG</a></li>
+              <li><a class="dropdown-item" href="zero.html">Zero</a></li>
+            </ul>
+          </li>
+          <!-- clairese's blog posts -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Clairese's Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="claireseblog1.html">Blog Post #1</a></li>
+              <li><a class="dropdown-item" href="claireseblog2.html">Blog Post #2</a></li>
+              <li><a class="dropdown-item" href="claireseblog3.html">Blog Post #3</a></li>
+            </ul>
+          </li>
+          <!-- dianne's blog posts -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dianne's Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="dianneblog1.html">Blog Post #1</a></li>
+              <li><a class="dropdown-item" href="dianneblog2.html">Blog Post #2</a></li>
+              <li><a class="dropdown-item" href="dianneblog3.html">Blog Post #3</a></li>
+            </ul>
+          </li>
+          <!-- shop -->
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
       <img src="pics/group-photo.jpg" class="img-fluid" alt="nj group photo">
 
