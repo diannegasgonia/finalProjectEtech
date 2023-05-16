@@ -24,6 +24,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.shop p{
+    position: absolute;
+    right: 7vw;
+}
+.shop p:hover{
+    text-decoration: underline;
+}
+.shop img{
+    position: absolute;
+    right: 4vw;
+    margin-top: -2.5vh;
+    height: 4vh;
+}
+
 .dropdown-menu > li:hover > .dropdown-submenu {
     display: block;
     }
