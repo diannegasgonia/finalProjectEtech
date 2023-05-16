@@ -4,17 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Main Blog Page</title>
     <link rel="stylesheet" href="BlogIndexStyles.css">
+    <link rel="stylesheet" href="navbar.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
+
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <!-- home -->
+      <a class="navbar-brand" href="index.html">
+        <img src="pictures/logo.png" id="logo" alt="">
+        NewJeans
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <!-- members -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Members
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="minji.html">Minji</a></li>
+              <li><a class="dropdown-item" href="hanni.html">Hanni</a></li>
+              <li><a class="dropdown-item" href="dani.html">Danielle</a></li>
+              <li><a class="dropdown-item" href="haerin.html">Haerin</a></li>
+              <li><a class="dropdown-item" href="hyein.html">Hyein</a></li>
+            </ul>
+          </li>
+          <!-- discography -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Discography
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="discography.html">Preview</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="newjeans.html">New Jeans</a></li>
+              <li><a class="dropdown-item" href="ditto.html">Ditto</a></li>
+              <li><a class="dropdown-item" href="omg.html">OMG</a></li>
+              <li><a class="dropdown-item" href="zero.html">Zero</a></li>
+            </ul>
+          </li>              
+          <!-- Blog posts MENU-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="BlogIndex.html">Main Blog Page</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="#">
+          <!-- Clairese's blog posts SUBMENU-->                  
+                  Clairese's Blogs &raquo;
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li><a class="dropdown-item" href="claireseblog1.html">Blog Post #1</a></li>
+                  <li><a class="dropdown-item" href="claireseblog2.html">Blog Post #2</a></li>
+                  <li><a class="dropdown-item" href="claireseblog3.html">Blog Post #3</a></li>
+                </ul>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+          <!-- Dianne's blog posts SUBMENU-->                    
+                Dianne's Blogs &raquo;
+              </a>
+              <ul class="dropdown-menu dropdown-submenu">
+                <li><a class="dropdown-item" href="dianneblog1.html">Blog Post #1</a></li>
+                <li><a class="dropdown-item" href="dianneblog2.html">Blog Post #2</a></li>
+                <li><a class="dropdown-item" href="dianneblog3.html">Blog Post #3</a></li>
+              </ul>
+            </li>
+            <li>
+            <a class="dropdown-item" href="#">
+          <!-- JP's blog posts SUBMENU-->                  
+              JP's Blogs &raquo;
+            </a>
+            <ul class="dropdown-menu dropdown-submenu">
+              <li><a class="dropdown-item" href="jpblog1.html">Blog Post #1</a></li>
+              <li><a class="dropdown-item" href="jpblog2.html">Blog Post #2</a></li>
+              <li><a class="dropdown-item" href="jpblog3.html">Blog Post #3</a></li>
+            </ul>
+            </li>
+          </ul>
+        </li> 
+          <!-- shop -->
+          <div class="shop">
+          <li class="nav-item shop">
+            <a class="nav-link active" href="shop.html"><p>Shop</p></a>
+          </li>
+            <a class="nav-link active" href="shop.html"><img src="pics/Cart.png" alt=""></a>
+          </div>
+        </ul>
+      </div>
+    </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- header-->
     <header class="header">
         
             <img src="BlogImgSet/BlogIndexBgAQUA.png" class="img-fluid" alt="Background">
 
-        <h1 class="centerText">The JP Blog</h1>
-        <h4 class="subtitle">Exploring the Effects of Media on an Individual</h4>
+        <h1 class="centerText">Main Blog Page</h1>
+        <h4 class="subtitle">The Web Developer's Archive Focusing on New Media and its Effects</h4>
 
         <!-- <p class="byline"> By John Paul Leinad D. Ramos</p> removed*-->
 
@@ -37,19 +136,18 @@
                         <div  class="FTextCol">
                             <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="featuredText">Why We Can't Grind Real Life Like Video Games</a>
                             
-                            <div class="row date">
+                            <div class="row Fdate">
                                 <p>January 3, 2023</p>
                             </div>
 
                             <div class="row">
                                 <div class="col-2">
                                     <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
-
                                 </div>
                                 
-                                <div class="col-10 author">
+                            <div class="col-10 Fauthor">
                                 <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
-                                </div>
+                            </div>
                             </div>
 
                         </div>
@@ -64,31 +162,214 @@
         <br>
 
         <div class="container OtherPosts">
+        <!--row one date:May 23-->
             <div class="row">
-                <div class="col-6">
+                <div class="col-4">
                     <div class="card">
                         <a href=""><img src="BlogImgSet/Venn Diagram.png" alt="Misinformation Venn Diagram"></a>
                         <div class="card-body">
                         <a href="" class="card-title">The Line Between Good Content and Harmful Media</a>
+
+                            <br>
+                            <div class="row author">
+                                <div class="col-2">
+                                    <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                                </div>
+                                
+                                <div class="col-10 author">
+                                    <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                                </div> 
+                            </div>
                             <br><br>
+
                         <p class="card-text">February 5, 2023</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-4">
                     <div class="card">
                         <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
                         <div class="card-body">
                         <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
-                            <br><br>
+                            
+                            <br>
+                            <div class="row author">
+                                <div class="col-2">
+                                    <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                                </div>
+                                
+                                <div class="col-10 author">
+                                    <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                                </div> 
+                            </div>
+                            <br>
+
                         <p class="card-text">May 23, 2023</p>                    
                         </div>
                     </div>
                 </div>
+                <div class="col-4">
+                    <div class="card">
+                        <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
+                        <div class="card-body">
+                        <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
+                            
+                        <br>
+                            <div class="row author">
+                                <div class="col-2">
+                                    <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                                </div>
+                                
+                                <div class="col-10 author">
+                                    <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                                </div> 
+                            </div>
+                            <br>
+                
+                        <p class="card-text">May 23, 2023</p>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--row two date:Feb 5-->
+        <br><br>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/Venn Diagram.png" alt="Misinformation Venn Diagram"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">The Line Between Good Content and Harmful Media</a>
 
+                        <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br><br>
+
+                    <p class="card-text">February 5, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
+                        
+                        <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br>
+
+                    <p class="card-text">May 23, 2023</p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
+                        
+                    <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br>
+            
+                    <p class="card-text">May 23, 2023</p>                    
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <!--row two date:Jan 3-->
+        <br><br>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/Venn Diagram.png" alt="Misinformation Venn Diagram"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">The Line Between Good Content and Harmful Media</a>
 
+                        <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br><br>
 
+                    <p class="card-text">February 5, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
+                        
+                        <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br>
+
+                    <p class="card-text">May 23, 2023</p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href=""><img src="BlogImgSet/WomanUsingPhone.jpg" alt="Texting"></a>
+                    <div class="card-body">
+                    <a href="" class="card-title">We Don’t Know How to Text: The Essence of Communication We Throw Away in Texting</a>
+                        
+                    <br>
+                        <div class="row author">
+                            <div class="col-2">
+                                <img style="height:6vh" src="BlogImgSet/JP RamosCentered.png" alt="JP Ramos">
+                            </div>
+                            
+                            <div class="col-10 author">
+                                <a href="https://open.spotify.com/artist/2YwTbSBUyNZTdv39z5pJNW" class="author">John Paul Leinad D. Ramos</a>
+                            </div> 
+                        </div>
+                        <br>
+            
+                    <p class="card-text">May 23, 2023</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
