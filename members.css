@@ -7,28 +7,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
-* {
-    margin: 0px;
-}
-        
-/* home page */
-#column {
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
-#title {
-    font-size: 6.5vw;
+/* member page */
+#name {
+    font-size: 10vw;
     font-family: 'Mogra', cursive;
     color: rgb(0, 0, 0);
 }
-
-
-#parag1 {
-    font-size: 1.7vw;
+#info {
+    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     text-align: justify;
+}
+
+#column {
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 #column2 {
@@ -45,11 +39,10 @@
     padding-bottom: 0px;
 }
 
-.square {
-    padding-bottom: 20px;
-    padding-left: px;
-    padding-right: 0px;
-    padding-top: 0px;
+#dani {
+    font-size: 8vw;
+    font-family: 'Mogra', cursive;
+    color: rgb(0, 0, 0);
 }
 
 /* footer */
