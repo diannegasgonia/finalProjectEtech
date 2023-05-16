@@ -1,0 +1,54 @@
+/* navbar style */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Mogra&family=Racing+Sans+One&family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: 'Koulen', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mogra', cursive;
+    font-family: 'Racing Sans One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Mogra', cursive;
+}
+.navbar-collapse {
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop p{
+    position: absolute;
+    right: 7vw;
+}
+.shop p:hover{
+    text-decoration: underline;
+}
+.shop img{
+    position: absolute;
+    right: 4vw;
+    margin-top: -2.5vh;
+    height: 4vh;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+.dropdown-menu .dropdown-submenu-left {
+        right: 100%;
+        left: auto;
+        }
+
+.dropdown-menu li {
+        position: relative;
+        }
+.dropdown-menu .dropdown-submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+        }
