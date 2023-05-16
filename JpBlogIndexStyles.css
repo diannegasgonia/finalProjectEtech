@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
     margin: 0;
 }
 
 body{
     background-color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .header img{
@@ -41,7 +44,7 @@ body{
 
 
 .content{
-    padding: 5vh 14vh 3vh 14vh;
+    padding: 5vh 14vh 5vh 14vh;
     background-color: whitesmoke;
     position: absolute;
     top: 80%;
@@ -127,3 +130,23 @@ body{
 }
 
 /* Other Blogs */
+
+.OtherPosts img{
+    width: 100%;
+}
+
+.OtherPosts a{
+    text-decoration: none;
+    color: #0b1f33;
+    font-size: 4vh;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 520;
+    text-align: left;
+}
+
+.card-text{
+    font-family: 'Merriweather', serif;
+    font-size: 1.2vw;
+}
+
+
