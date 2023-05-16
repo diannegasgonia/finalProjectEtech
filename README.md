@@ -1,2 +1,2 @@
 # finalProjectEtech
-Collaboration Website by Dianne Gasgonia and Clairese Garcia
+Collaboration Website by Dianne Gasgonia, Clairese Garcia andd JP Ramos.
