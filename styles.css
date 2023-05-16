@@ -7,6 +7,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* whole website */
+* {
+    margin: ;
+}
+
 /* navbar style */
 #logo {
     width: 50px;
@@ -62,7 +67,13 @@
 
 /* footer */
 #footer {
-    background-color: white;
+    background-color: rgb(62, 59, 59);
+    margin-left: ;
+    margin-right: ;
+}
+
+.icons img {
+    width: 6vw;
 }
 
 /* member page */
