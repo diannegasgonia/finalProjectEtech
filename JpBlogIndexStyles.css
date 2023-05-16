@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header img{
+    height: 80%;
+    width: 100%;
+    position: fixed;
+    opacity: 100%;
+}
+
+.centerText{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    font-size: 15vh;     
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 550;
+    color: #0b1f33;
+}
+
+.subtitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3vh;   
+    transform: translate(-50%, -50%);  
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #0b1f33;
+}
+
+ /* CONTENT STYLES */
+
+
+.content{
+    padding: 5vh 14vh 5vh 14vh;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 80%;
+    color: black;   
+    width: 100%;
+}
+
+/* Featured Post Styles*/
+.content h2{
+    font-size: 7.5vh;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #0b1f33;
+    font-weight: 550;
+}
+
+.feature a img{
+    width: 100%;
+}
+
+
+.featuredText{
+    font-size: 3.25vw;
+    color: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: left;
+}
+
+.FTextCol{
+    padding-left: 1vh;
+    padding-top: 5vh;
+    padding-right: 2vh;
+    padding-bottom: 1vh;
+}
+
+.date{
+    font-size: 1.2vw;
+    color: gainsboro;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 525;
+    text-decoration: none;
+    text-align: left;
+}
+
+.author a{
+    font-size: 1.5vw;
+    color: whitesmoke;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 520;
+    text-decoration: none;
+    text-align: left;
+}
+@media screen and (min-width: 940px){
+.author a{
+    margin-left: -3vw;
+}
+.author{
+    padding-top: 0.5vh;
+}
+}
+@media screen and (max-width: 940px){
+    .author a{
+        margin-left: 2vw;
+        font-size: 1.4vw;
+    }
+    .FTextCol{
+        padding-left: 1vh;
+        padding-top: 1vh;
+        padding-right: 2vh;
+        padding-bottom: 1vh;
+    }
+}
+
+.FImgBG{
+    background-image: url("BlogImgSet/FImgBG0.png");
+}
+
+.FTextBG{
+    background-color:#00C63F;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* Other Blogs */
+
+.OtherPosts img{
+    width: 100%;
+}
+
+.OtherPosts a{
+    text-decoration: none;
+    color: #0b1f33;
+    font-size: 4vh;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 520;
+    text-align: left;
+}
+
+.card-text{
+    font-family: 'Merriweather', serif;
+    font-size: 1.2vw;
+}
+
+
