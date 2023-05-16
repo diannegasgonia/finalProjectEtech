@@ -7,9 +7,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* whole website */
 * {
-    margin: ;
+    margin: 0px;
 }
 
 /* navbar style */
@@ -67,13 +66,24 @@
 
 /* footer */
 #footer {
-    background-color: rgb(62, 59, 59);
-    margin-left: ;
-    margin-right: ;
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .icons img {
     width: 6vw;
+    font-size: 10vw;
+    font-family: 'Mogra', cursive;
+    color: rgb(0, 0, 0);
+    filter: invert(1);
+}
+
+.footer-copyright {
+    font-size: 1.7vw;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
 }
 
 /* member page */
