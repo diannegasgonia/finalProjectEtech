@@ -15,7 +15,7 @@
 body{
     background-color: white;
 }
-
+/*header styles*/
 .header img{
     height: 80%;
     width: 100%;
@@ -52,7 +52,6 @@ body{
 .content{
     padding: 5vh 14vh 5vh 14vh;
     background-color: whitesmoke;
-    top: 80%;
     color: black;   
     width: 100%;
 }
