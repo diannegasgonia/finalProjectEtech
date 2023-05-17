@@ -109,3 +109,16 @@ padding-bottom: 30px;
     color: rgb(255, 255, 255);
     text-align: justify;
 }
+
+#thumbnail{
+    width: 720px;
+    height: auto;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mv{
+padding-top: 40px;
+}
