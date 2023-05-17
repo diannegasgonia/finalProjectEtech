@@ -58,7 +58,7 @@ h1 {
 }
 
 #albums {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -121,4 +121,8 @@ padding-bottom: 30px;
 
 .mv{
 padding-top: 40px;
+}
+
+.text-start{
+    font-size: 18px;
 }
