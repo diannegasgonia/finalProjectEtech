@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Mogra&family=Racing+Sans+One&family=Roboto:wght@300&display=swap');
-@font-face {
-    font-family: 'Koulen', cursive;
-    font-family: 'Lobster', cursive;
-    font-family: 'Mogra', cursive;
-    font-family: 'Racing Sans One', cursive;
-    font-family: 'Roboto', sans-serif;
-}
 
 *{
     margin: 0;
@@ -29,7 +22,6 @@ body{
     transform: translate(-50%, -50%); 
     font-family: 'Kaushan Script', cursive;
     font-weight: 500;
-    color: #1d0b33;
 }
 
 @media screen and (min-width: 940px){
@@ -65,7 +57,6 @@ body{
 .BlogContent{
     padding: 5vh 14vh 5vh 14vh;
     background-color: whitesmoke;
-    color: #0e0015; 
     width: 100%;
 }
 
@@ -79,10 +70,9 @@ body{
 
 .PostTitle{
     text-align: center;
-    font-size: 10vh;
+    font-size: 5vw;
     font-family: 'Libre Caslon Text', serif;
     font-weight: 500;
-    color: #1d0b33;
 }
 
 #LeftImg{
