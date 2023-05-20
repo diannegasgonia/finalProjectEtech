@@ -97,7 +97,7 @@ body{
     text-align: left;
 }
 
-.Fauthor a{
+.Fauthor p{
     font-size: 1.5vw;
     color: whitesmoke;
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -106,7 +106,7 @@ body{
     text-align: left;
 }
 @media screen and (min-width: 940px){
-    .Fauthor a{
+    .Fauthor p{
         margin-left: -3vw;
     }
     .Fauthor{
@@ -114,7 +114,7 @@ body{
     }
     }
 @media screen and (max-width: 940px){
-    .Fauthor a{
+    .Fauthor p{
         margin-left: 2vw;
         font-size: 1.4vw;
     }
@@ -162,7 +162,7 @@ body{
     color: #4e5151;
 }
 /*AUTHOR CSS*/
-.author a{
+.author p{
     font-family: 'Merriweather', serif;
     font-size: 1.2vw;
     color: #4e5151;
