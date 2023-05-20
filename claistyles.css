@@ -67,26 +67,26 @@ h1 {
 #newjeans {
 width: 200px;
 height: auto;
-padding-bottom: 30px;
+padding-bottom: 80px;
 padding-top: 10px;
 }
 
 #ditto {
 width: 200px;
 height: auto;
-padding-bottom: 30px;
+padding-bottom: 80px;
 }
 
 #omg {
 width: 200px;
 height: auto;
-padding-bottom: 30px;
+padding-bottom: 80px;
 }
 
 #zero {
 width: 200px;
 height: auto;
-padding-bottom: 30px;
+padding-bottom: 80px;
 }
 
 #footer {
@@ -124,5 +124,9 @@ padding-top: 40px;
 }
 
 .text-start{
-    font-size: 18px;
+    font-size: 1.3vw;
+}
+
+#button {
+    font-size: 1.1vw;
 }
