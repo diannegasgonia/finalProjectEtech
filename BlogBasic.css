@@ -55,7 +55,7 @@ body{
 
 
 .BlogContent{
-    padding: 5vh 14vh 5vh 14vh;
+    padding: 5vh 16vh 5vh 16vh;
     background-color: whitesmoke;
     width: 100%;
 }
@@ -75,8 +75,47 @@ body{
     font-weight: 500;
 }
 
+/*Images*/
 #LeftImg{
     margin-right: 35px;
     width: 50%;
     float: left;
+}
+
+#RightImg{
+    margin-left: 35px;
+    width: 50%;
+    float: right;
+}
+
+#CenterImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.TwoCenterImg img{
+    height: 35vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.TwoCenterImg{
+    padding: 3vw;
+    margin-bottom: -5vh;
+    margin-top: -5vh;
+}
+
+.TwoCenterImg p{
+    text-align: center;
+    text-indent: 0px;
+    padding-left: 3vw;
+}
+
+#caption{
+    text-align: center;
+    text-indent: 0px;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
